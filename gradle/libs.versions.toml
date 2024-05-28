@@ -1,8 +1,13 @@
 [versions]
 agp = "8.4.1"
 applovinSdk = "12.4.3"
+compiler = "4.15.1"
+extensions = "1.1.1"
+firebaseAnalytics = "22.0.0"
 fragmentKtx = "1.7.1"
+glide = "4.16.0"
 gson = "2.10.1"
+inmobiAdsKotlin = "10.6.7"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -10,21 +15,28 @@ junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 appcompat = "1.6.1"
 kotlinxCoroutinesAndroid = "1.8.0"
+kotlinxCoroutinesAndroidVersion = "1.7.3"
 lifecycleExtensions = "2.2.0"
 lifecycleLivedataKtx = "2.6.1"
-lifecycleLivedataKtxVersion = "2.8.0"
 loggingInterceptor = "5.0.0-alpha.11"
 lottie = "6.3.0"
 material = "1.12.0"
 activity = "1.9.0"
 constraintlayout = "2.1.4"
 materialVersion = "1.8.0"
+mbbid = "16.7.41"
+newinterstitial = "16.6.71"
+okhttp = "4.10.0"
+okhttp3Integration = "4.14.2"
 okio = "3.3.0"
+playServicesAdsIdentifier = "18.0.1"
 retrofit = "2.9.0"
+reward = "16.6.71"
 sdpAndroid = "1.1.0"
 slidetoact = "0.9.0"
 sspAndroid = "1.1.0"
 swiperefreshlayout = "1.1.0"
+workRuntime = "2.9.0"
 
 [libraries]
 androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
@@ -32,12 +44,18 @@ androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = 
 androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
 androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
 androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
-androidx-lifecycle-livedata-ktx-v280 = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtxVersion" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleLivedataKtx" }
 androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+androidx-work-runtime = { module = "androidx.work:work-runtime", version.ref = "workRuntime" }
 applovin-sdk = { module = "com.applovin:applovin-sdk", version.ref = "applovinSdk" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "retrofit" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebaseAnalytics" }
+inmobi-ads-kotlin = { module = "com.inmobi.monetization:inmobi-ads-kotlin", version.ref = "inmobiAdsKotlin" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesAndroidVersion" }
+lifecycle_extensions = { module = "android.arch.lifecycle:extensions", version.ref = "extensions" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -49,9 +67,15 @@ lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-material-v180 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+mbbanner = { module = "com.mbridge.msdk.oversea:mbbanner", version.ref = "mbbid" }
+mbbid = { module = "com.mbridge.msdk.oversea:mbbid", version.ref = "mbbid" }
+newinterstitial = { module = "com.mbridge.msdk.oversea:newinterstitial", version.ref = "newinterstitial" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+okhttp3-integration = { module = "com.github.bumptech.glide:okhttp3-integration", version.ref = "okhttp3Integration" }
 okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
+play-services-ads-identifier = { module = "com.google.android.gms:play-services-ads-identifier", version.ref = "playServicesAdsIdentifier" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+reward = { module = "'com.mbridge.msdk.oversea:reward", version.ref = "reward" }
 sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
 slidetoact = { module = "com.ncorti:slidetoact", version.ref = "slidetoact" }
 ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
@@ -60,4 +84,4 @@ ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
-
+fyber-fairbid-sdk = { id = "com.fyber.fairbid-sdk-plugin", version = "3.49.1" }
