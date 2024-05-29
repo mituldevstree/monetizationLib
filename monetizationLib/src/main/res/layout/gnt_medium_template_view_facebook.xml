@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.facebook.ads.NativeAdLayout
+        android:id="@+id/native_ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.facebook.ads.MediaView
+            android:id="@+id/native_ad_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:elevation="1dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingBottom="6dp">
+
+            <LinearLayout
+                android:id="@+id/ad_choices_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:gravity="end"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.monetizationlib.data.base.view.customviews.GivvyTextView
+                android:id="@+id/primary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:paddingEnd="35dp"
+                android:textColor="@android:color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:textFont="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardMediaView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="12dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintDimensionRatio="W,1."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/primary">
+
+                <com.facebook.ads.MediaView
+                    android:id="@+id/media_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY" />
+
+            </androidx.cardview.widget.CardView>
+
+            <com.monetizationlib.data.base.view.customviews.GivvyTextView
+                android:id="@+id/body"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lines="3"
+                android:maxLines="3"
+                android:paddingStart="12dp"
+                android:paddingEnd="20dp"
+                android:textColor="#181818"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/attributeHolderView"
+                app:layout_constraintTop_toBottomOf="@+id/cardMediaView"
+                app:textFont="regular" />
+
+            <View
+                android:id="@+id/attributeHolderView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:alpha="0.25"
+                app:layout_constraintBottom_toBottomOf="@+id/body"
+                app:layout_constraintStart_toStartOf="@+id/cardMediaView"
+                app:layout_constraintTop_toTopOf="@+id/body" />
+
+            <com.monetizationlib.data.base.view.customviews.GivvyTextView
+                android:id="@+id/givvyTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ad"
+                android:textSize="22dp"
+                app:layout_constraintBottom_toBottomOf="@id/attributeHolderView"
+                app:layout_constraintEnd_toEndOf="@id/attributeHolderView"
+                app:layout_constraintStart_toStartOf="@id/attributeHolderView"
+                app:layout_constraintTop_toTopOf="@id/attributeHolderView"
+                app:textFont="bold" />
+
+            <com.monetizationlib.data.base.view.customviews.GivvyButton
+                android:id="@+id/cta"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:elevation="8dp"
+                android:gravity="center"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                app:layout_constraintEnd_toEndOf="@+id/cardMediaView"
+                app:layout_constraintStart_toStartOf="@+id/cardMediaView"
+                app:layout_constraintTop_toBottomOf="@id/body"
+                app:textFont="bold" />
+
+            <com.monetizationlib.data.base.view.customviews.GivvyTextView
+                android:id="@+id/tagsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@id/body"
+                app:layout_constraintTop_toBottomOf="@id/body"
+                app:textFont="regular"
+                tools:text="#hashtag1 #hashtag1 #hashtag1 #hashtag1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.facebook.ads.NativeAdLayout>
+</merge>

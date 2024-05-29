@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GlobalAttrDeclare">
+        <attr name="titleText" format="string" />
+        <attr name="textFont" format="enum">
+            <enum name="bold" value="0" />
+            <enum name="regular" value="1" />
+            <enum name="medium" value="2" />
+            <enum name="light" value="3" />
+            <enum name="heavy" value="4" />
+            <enum name="semibold" value="5" />
+            <enum name="impact" value="6" />
+            <enum name="roundedbold" value="7" />
+            <enum name="roundedregular" value="8" />
+            <enum name="myriad" value="9" />
+            <enum name="righteous" value="10" />
+            <enum name="montserratBold" value="11" />
+            <enum name="montserratLight" value="12" />
+            <enum name="montserratMedium" value="13" />
+            <enum name="montserratRegular" value="14" />
+            <enum name="montserratSemiBold" value="15" />
+            <enum name="lalezarRegular" value="16" />
+            <enum name="blackHanSansRegular" value="17" />
+            <enum name="poppinsRegular" value="18" />
+            <enum name="poppinsBold" value="19" />
+            <enum name="poppinsExtraBold" value="20" />
+            <enum name="poppinsSemiBold" value="21" />
+            <enum name="poppinsLight" value="22" />
+            <enum name="poppinsMedium" value="23" />
+        </attr>
+        <attr name="leftOptionName" format="string" />
+        <attr name="rightOptionName" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="GivvyTextView">
+        <attr name="textFont" />
+    </declare-styleable>
+
+    <declare-styleable name="GivvyEditText">
+        <attr name="textFont" />
+    </declare-styleable>
+
+    <declare-styleable name="GivvyButton">
+        <attr name="textFont" />
+    </declare-styleable>
+
+    <declare-styleable name="GivvyToolbar">
+        <attr name="coinsCount" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedCornerImageView">
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OfferwallCalendarView"></declare-styleable>
+    <declare-styleable name="OfferwallCalendarDayView"></declare-styleable>
+
+    <declare-styleable name="TripleTextSegment">
+        <attr name="leftOptionName" />
+        <attr name="rightOptionName" />
+        <attr name="centerOptionName" format="string" />
+        <attr name="isThirdOptionWithImage" format="boolean" />
+        <attr name="thirdOptionImage" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TemplateView">
+        <attr name="gnt_template_type" format="reference" />
+        <attr name="isFacebook" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TextViewAndEditText">
+        <attr name="titleText" />
+        <attr name="hint" format="string" />
+        <attr name="contentOfEditText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="OfferwallOptionView">
+        <attr name="coins" format="string" />
+        <attr name="optionImage" format="integer" />
+        <attr name="optionBackgroundImage" format="integer" />
+        <attr name="optionTitle" format="string" />
+    </declare-styleable>
+    <declare-styleable name="StepViewDemo">
+        <attr name="sv_selectedCircleColor" format="color" />
+        <attr name="sv_selectedCircleRadius" format="dimension" />
+        <attr name="sv_selectedTextColor" format="color" />
+        <attr name="sv_selectedStepNumberColor" format="color" />
+        <attr name="sv_stepNumberTextSize" format="dimension" />
+        <attr name="sv_doneStepMarkColor" format="color" />
+        <attr name="sv_doneCircleColor" format="color" />
+        <attr name="sv_doneCircleRadius" format="dimension" />
+        <attr name="sv_doneTextColor" format="color" />
+        <attr name="sv_nextTextColor" format="color" />
+        <attr name="sv_nextStepLineColor" format="color" />
+        <attr name="sv_doneStepLineColor" format="color" />
+        <attr name="sv_stepPadding" format="dimension" />
+        <attr name="sv_textPadding" format="dimension" />
+        <attr name="sv_stepLineWidth" format="dimension" />
+        <attr name="sv_textSize" format="dimension" />
+        <attr name="sv_background" format="color" />
+        <attr name="sv_animationDuration" format="integer" />
+        <attr name="sv_stepViewStyle" format="reference" />
+        <attr name="sv_animationType" format="enum">
+            <enum name="Line" value="0" />
+            <enum name="Circle" value="1" />
+            <enum name="All" value="2" />
+            <enum name="None" value="3" />
+        </attr>
+        <attr name="sv_stepsNumber" format="integer" />
+        <attr name="sv_steps" format="reference" />
+        <attr name="sv_typeface" format="reference" />
+        <attr name="sv_nextStepCircleEnabled" format="boolean" />
+        <attr name="sv_nextStepCircleColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="StepView">
+        <attr name="svCircleColor" format="color" />
+        <attr name="svTextColor" format="color" />
+        <attr name="svSelectedColor" format="color" />
+        <attr name="svFillRadius" format="dimension" />
+        <attr name="svStrokeWidth" format="dimension" />
+        <attr name="svLineWidth" format="dimension" />
+        <attr name="svTextSize" format="dimension" />
+        <attr name="svDrawablePadding" format="dimension" />
+    </declare-styleable>
+
+    <attr name="textColorLibPrimary" format="color" />
+    <attr name="textColorLibSecondary" format="color" />
+    <attr name="textColorLibFocus" format="color" />
+    <attr name="textColorLibFocusSecondary" format="color" />
+    <attr name="colorTextLibHint" format="color" />
+    <attr name="windowBackground" format="color" />
+
+
+</resources>

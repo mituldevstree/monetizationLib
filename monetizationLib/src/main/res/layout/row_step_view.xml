@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rootConstraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:background="@drawable/rounded_line"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tvSteps"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvSteps"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rect_background"
+            android:fontFamily="@font/poppins"
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/checkboxImage"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:elevation="5dp"
+            android:src="@drawable/ic_check"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintStart_toEndOf="@id/tvSteps"
+            app:layout_constraintEnd_toEndOf="@id/tvSteps"
+            app:layout_constraintTop_toTopOf="@id/tvSteps"
+            app:layout_constraintBottom_toTopOf="@id/viewLine"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

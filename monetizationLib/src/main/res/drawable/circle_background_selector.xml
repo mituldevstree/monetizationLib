@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <shape android:shape="oval">
+            <solid android:color="#FFBD62" />
+            <stroke android:width="@dimen/_1sdp"
+                android:color="@color/white"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <gradient android:angle="90"
+                        android:endColor="#FFBD62"
+                        android:startColor="#AC6D16"
+                        android:type="linear" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/_1sdp" android:left="@dimen/_1sdp" android:right="@dimen/_1sdp" android:top="@dimen/_1sdp">
+                <shape android:shape="oval">
+                    <gradient android:endColor="#C1822C"
+                        android:gradientRadius="100%"
+                        android:startColor="#FFB959" android:type="radial" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <gradient android:angle="90"
+                        android:endColor="@color/defaultStepCircleEndBorderColor"
+                        android:startColor="@color/defaultStepCircleStartBorderColor"
+                        android:type="linear" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/_1sdp"
+                android:left="@dimen/_1sdp"
+                android:right="@dimen/_1sdp" android:top="@dimen/_1sdp">
+                <shape android:shape="oval">
+                    <gradient android:endColor="@color/defaultStepCircleEndColor"
+                        android:gradientRadius="100%"
+                        android:startColor="@color/defaultStepCircleStartColor" android:type="radial" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!--  <item>
+          <shape android:shape="oval">
+              <solid android:color="@color/white" />
+          </shape>
+      </item>
+  -->
+</selector>

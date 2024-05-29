@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="surveys" translatable="false">Surveys</string>
+    <string name="view_coroutine_scope" translatable="false" tools:ignore="ExtraTranslation">viewscope</string>
+    <string name="xp_placeholder" translatable="false">%s XP</string>
+    <string name="coins_placeholder" translatable="false">%s coins</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="okay" translatable="false">Okay</string>
+    <string name="Download" translatable="false">Download</string>
+
+    <string name="dear_user_we_have_found_suspicious_activity_in_order_to_continue_use_our_application_please_verify_yourself_and_slide_to_continue" translatable="false">Dear user, we have found suspicious activity. In order to continue using our application, please verify yourself and slide to continue.</string>
+    <string name="play_ad" translatable="false">Play ad</string>
+    <string name="word_continue" translatable="false">Continue</string>
+    <string name="enter_your_email" translatable="false">Enter your email</string>
+    <string name="ads_away_from_reward" translatable="false">You are a just %d ads away from your first cash out!</string>
+    <string name="current_ads_progress" translatable="false">Current cashout progress %d/%d</string>
+    <string name="congratulations" translatable="false">Congratulations!</string>
+    <string name="money_are_sent" translatable="false">Congrats on your first withdraw. Your money are sent to your account! It might take several minutes for transaction to be completed. Meanwhile continue to play and earn even more money!</string>
+    <string name="enter_your_account_number" translatable="false">Enter account number: P123456789</string>
+    <string name="first_cash_out" translatable="false">FIRST CASH OUT!</string>
+    <string name="you_are_a_few_steps_away_from_your_first_cash_out" translatable="false">You are a few steps away from your first cash out! Please select your cash out method.</string>
+    <string name="a_big_special_reward_is_here_for_you" translatable="false">A big special reward is here for you! All you have to do is watch one short ad to redeem this awesome offer!</string>
+    <string name="big_reward" translatable="false">BIG REWARD!</string>
+    <string name="big_reward_toast_text" translatable="false">Congrats. You have won %d coins from the big reward</string>
+    <string name="thanks_for_downloading_the_app" translatable="false">Thank you for downloading the application! Enjoy your reward of 4 000 coins and don`t miss the next one.</string>
+    <string name="a_special_offer_for_next_ad" translatable="false">A special offer of 4000 coins for you! To redeem it: \n\n① Click on the next ad \n② Download the app  \n③ Open the application</string>
+    <string name="watch_ad_title" translatable="false">Play ad</string>
+    <string name="Continue" translatable="false">Continue</string>
+    <string name="every_video_you_watch_will_earn_you_money_enjoy_the_app_and_share_with_your_friends" translatable="false">Every video you watch will earn you money! Enjoy the app and share with your friends!</string>
+    <string name="download_5_apps_which_show_when_you_are_watching_an_ad" translatable="false">Download 5 apps which show when you are watching an AD</string>
+    <string name="watch_now" translatable="false">Watch Now</string>
+    <string name="how_to_win" translatable="false">How to win</string>
+    <string name="thanks_for_downloading_the_app_download_feature" translatable="false">Thank you for downloading the application! You are one step closer to your reward. We need to open the new installed app in order to update your process!</string>
+    <string name="intro" translatable="false">Intro</string>
+    <string name="this_is_the_overall_explanation_of_the_three_step_reward_here_we_will_provide_users_with_a_clear_understanding_of_the_reward_and_its_conditions_before_moving_on_to_the_next_three_screens_where_a_more_detailed_explanation_of_each_step_awaits" translatable="false">This is the overall explanation of the three-step reward. Here, we will provide users with a clear understanding of the reward and its conditions before moving on to the next three screens, where a more detailed explanation of each step awaits</string>
+    <string name="explanations" translatable="false">Explanations</string>
+    <string name="current_reward">Current reward</string>
+    <string name="reward">Reward</string>
+    <string name="congrats">Congrats</string>
+    <string name="claim">Claim</string>
+    <string name="open_app">Open App</string>
+    <string name="app_needs_usage_permission">App needs usage stats permission</string>
+    <string name="grant">Grant</string>
+    <string name="go_to_next_step">Skip,Go to next step.</string>
+    <string name="next_step">Next</string>
+    <string name="download_app">Download App</string>
+    <string name="claimed">Claimed</string>
+    <string name="in_order_to_complete_and_claim_this_step_app_needs_permission_to_access_app_usage_stats_to_check_time_spent_in_the_app">In order to complete and claim this step app needs permission to access app usage stats to check time spent in the app.</string>
+    <string name="processing">Processing</string>
+    <string name="download_feature_config_is_currently_unavailable">Download feature config is currently unavailable.</string>
+    <string name="failed_to_claim_reward_please_close_and_retry_else_check_your_app_balance_after_restarting_your_app">Failed to claim reward, please close and retry.Else check your app balance after restarting your app.</string>
+    <string name="unknown_step_found">Unknown step found</string>
+</resources>

@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2E7FA3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#2E7FA3</item>
+        <item name="background">@color/black</item>
+        <item name="android:statusBarColor">#21212E</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="StepViewDemo">
+        <item name="sv_selectedCircleColor">#FF1DA6BF</item>
+        <item name="sv_selectedCircleRadius">14dp</item>
+        <item name="sv_selectedTextColor">@android:color/white</item>
+        <item name="sv_selectedStepNumberColor">@android:color/white</item>
+        <item name="sv_stepNumberTextSize">12sp</item>
+        <item name="sv_doneStepMarkColor">@android:color/white</item>
+        <item name="sv_doneCircleColor">#FF1DA6BF</item>
+        <item name="sv_doneCircleRadius">14dp</item>
+        <item name="sv_doneTextColor">@android:color/white</item>
+        <item name="sv_nextTextColor">#FF1DA6BF</item>
+        <item name="sv_nextStepLineColor">#FF1DA6BF</item>
+        <item name="sv_doneStepLineColor">@android:color/white</item>
+        <item name="sv_stepPadding">12dp</item>
+        <item name="sv_textPadding">12dp</item>
+        <item name="sv_stepLineWidth">0.5dp</item>
+        <item name="sv_animationDuration">200</item>
+        <item name="sv_textSize">14sp</item>
+        <item name="sv_animationType">Line</item>
+    </style>
+
+    <style name="StepView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="svCircleColor">#FFFFFF</item>
+        <item name="svTextColor">#000000</item>
+        <item name="svSelectedColor">#3FA7D6</item>
+        <item name="svFillRadius">11dp</item>
+        <item name="svStrokeWidth">3dp</item>
+        <item name="svLineWidth">4dp</item>
+        <item name="svTextSize">12sp</item>
+        <item name="svDrawablePadding">10dp</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" />
+
+    <style name="OfferBottomSheetModal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="OfferBottomSheetDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+
+
+
+        <item name="paddingBottomSystemWindowInsets">false</item>
+        <item name="paddingTopSystemWindowInsets">false</item>
+
+        <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
+        <item name="bottomSheetStyle">@style/OfferBottomSheetModal</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <item name="textColorLibPrimary">@color/textColorLibPrimary</item>
+        <item name="textColorLibSecondary">@color/textColorLibSecondary</item>
+        <item name="textColorLibFocus">@color/textColorLibFocus</item>
+        <item name="textColorLibFocusSecondary">@color/textColorLibSecondary</item>
+        <item name="colorTextLibHint">@color/colorTextLibHint</item>
+        <item name="windowBackground">@color/windowBackground</item>
+    </style>
+
+
+    <!-- Button Styling  -->
+
+    <style name="Widget.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">@dimen/_40sdp</item>
+        <item name="android:minWidth">@dimen/_120sdp</item>
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:paddingTop">@dimen/_3sdp</item>
+        <item name="android:paddingBottom">@dimen/_4sdp</item>
+        <item name="android:paddingStart">@dimen/_7sdp</item>
+        <item name="android:paddingEnd">@dimen/_7sdp</item>
+        <item name="android:textColor">@color/textColorLibPrimary</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:fontFamily">@font/maleo_bold</item>
+        <item name="android:background">@drawable/button_primary</item>
+        <item name="android:lineSpacingExtra">@dimen/_minus3sdp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="fontFamily">@font/maleo_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Button.Secondary" parent="Widget.Button.Primary">
+        <item name="android:background">@drawable/button_secondary</item>
+    </style>
+    <style name="MonetizationCircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

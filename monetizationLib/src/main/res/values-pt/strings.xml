@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="current_reward">Recompensa atual</string>
+    <string name="reward">Recompensa</string>
+    <string name="congrats">Parabéns</string>
+    <string name="claim">Reivindicar</string>
+    <string name="open_app">Abrir aplicativo</string>
+    <string name="app_needs_usage_permission">O aplicativo precisa de permissão de estatísticas de uso</string>
+    <string name="grant">Conceder</string>
+    <string name="go_to_next_step">Pular, Ir para a próxima etapa</string>
+    <string name="next_step">Próximo</string>
+    <string name="download_app">Baixar aplicativo</string>
+    <string name="claimed">Reivindicado</string>
+    <string name="in_order_to_complete_and_claim_this_step_app_needs_permission_to_access_app_usage_stats_to_check_time_spent_in_the_app">Para completar e reivindicar esta etapa, o aplicativo precisa de permissão para acessar estatísticas de uso do aplicativo para verificar o tempo gasto no aplicativo.</string>
+    <string name="processing">Processando</string>
+    <string name="download_feature_config_is_currently_unavailable">A configuração da funcionalidade de download está atualmente indisponível.</string>
+    <string name="failed_to_claim_reward_please_close_and_retry_else_check_your_app_balance_after_restarting_your_app">Falha ao reivindicar a recompensa, por favor feche e tente novamente. Caso contrário, verifique o saldo do seu aplicativo após reiniciá-lo.</string>
+    <string name="unknown_step_found">Passo desconhecido encontrado</string>
+</resources>

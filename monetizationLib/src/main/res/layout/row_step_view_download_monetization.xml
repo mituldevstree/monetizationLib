@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:lib="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="themeConfig"
+            type="com.monetizationlib.data.attributes.model.ThemeConfig" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rootConstraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_8sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/viewLine"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_6sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvSteps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvSteps" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/tvSteps"
+            android:layout_width="@dimen/_7sdp"
+            android:layout_height="@dimen/_7sdp"
+            lib:stepCirclePrimaryStartColor="@{themeConfig.stepIndicatorComponent.defaultStepCircleStartColor}"
+            lib:stepCirclePrimaryEndColor="@{themeConfig.stepIndicatorComponent.defaultStepCircleEndColor}"
+            lib:stepCirclePrimaryBorderStartColor="@{themeConfig.stepIndicatorComponent.defaultStepCircleStartBorderColor}"
+            lib:stepCirclePrimaryBorderEndColor="@{themeConfig.stepIndicatorComponent.defaultStepCircleEndBorderColor}"
+            lib:stepCircleSecondaryStartColor="@{themeConfig.stepIndicatorComponent.selectedStepCircleStartColor}"
+            lib:stepCircleSecondaryEndColor="@{themeConfig.stepIndicatorComponent.selectedStepCircleEndColor}"
+            lib:stepCircleSecondaryBorderStartColor="@{themeConfig.stepIndicatorComponent.selectedStepCircleStartBorderColor}"
+            lib:stepCircleSecondaryBorderEndColor="@{themeConfig.stepIndicatorComponent.selectedStepCircleEndBorderColor}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="current_reward">Текущо възнаграждение</string>
+    <string name="reward">Възнаграждение</string>
+    <string name="congrats">Поздравления</string>
+    <string name="claim">Изискване</string>
+    <string name="open_app">Отвори приложението</string>
+    <string name="app_needs_usage_permission">Приложението се нуждае от разрешение за използване на статистиката</string>
+    <string name="grant">Предостави</string>
+    <string name="go_to_next_step">Пропусни, Отиди на следващата стъпка</string>
+    <string name="next_step">Следваща стъпка</string>
+    <string name="download_app">Изтегли приложението</string>
+    <string name="claimed">Изискано</string>
+    <string name="in_order_to_complete_and_claim_this_step_app_needs_permission_to_access_app_usage_stats_to_check_time_spent_in_the_app">За да завършите и изискате тази стъпка, приложението се нуждае от разрешение за достъп до статистиката за използване на приложението, за да провери времето, прекарано в приложението.</string>
+    <string name="processing">Обработка</string>
+    <string name="download_feature_config_is_currently_unavailable">Конфигурацията на функцията за изтегляне в момента не е достъпна.</string>
+    <string name="failed_to_claim_reward_please_close_and_retry_else_check_your_app_balance_after_restarting_your_app">Неуспешно искане за получаване на награда, моля затворете и опитайте отново. В противен случай проверете баланса на вашето приложение след рестартиране на приложението.</string>
+    <string name="unknown_step_found">Открит е неизвестен стъпка</string>
+
+</resources>

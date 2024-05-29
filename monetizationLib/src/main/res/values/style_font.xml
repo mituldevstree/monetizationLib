@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Maleo font style -->
+
+    <style name="FontMaleoBlack">
+        <item name="android:fontFamily">@font/maleo_black</item>
+        <item name="android:lineSpacingExtra">@dimen/_minus5sdp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontMaleoBold">
+        <item name="android:fontFamily">@font/maleo_bold</item>
+        <item name="android:lineSpacingExtra">@dimen/_minus5sdp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontMaleoMedium">
+        <item name="android:fontFamily">@font/maleo_medium</item>
+        <item name="android:lineSpacingExtra">@dimen/_minus2sdp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontMaleoRegular">
+        <item name="android:fontFamily">@font/maleo_regular</item>
+        <item name="android:lineSpacingExtra">@dimen/_minus2sdp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+    <style name="FontMaleoBlack.Primary" parent="FontMaleoBlack">
+        <item name="android:textColor">@color/textColorLibPrimary</item>
+        <item name="android:textColorHint">@color/colorTextLibHint</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="FontMaleoBlack.Secondary" parent="FontMaleoBlack">
+        <item name="android:textColor">@color/textColorLibSecondary</item>
+        <item name="android:textColorHint">@color/colorTextLibHint</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="FontMaleoBold.Primary" parent="FontMaleoBold">
+        <item name="android:textColor">@color/textColorLibPrimary</item>
+        <item name="android:textColorHint">@color/colorTextLibHint</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="FontMaleoBold.Secondary" parent="FontMaleoBold">
+        <item name="android:textColor">@color/textColorLibSecondary</item>
+        <item name="android:textColorHint">@color/colorTextLibHint</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="FontMaleoMedium.Primary" parent="FontMaleoMedium">
+        <item name="android:textColor">@color/textColorLibPrimary</item>
+        <item name="android:textColorHint">@color/colorTextLibHint</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="FontMaleoMedium.Secondary" parent="FontMaleoMedium">
+        <item name="android:textColor">@color/textColorLibSecondary</item>
+        <item name="android:textColorHint">@color/colorTextLibHint</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="FontMaleoRegular.Primary" parent="FontMaleoRegular">
+        <item name="android:textColor">@color/textColorLibPrimary</item>
+        <item name="android:textColorHint">@color/colorTextLibHint</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+
+    <style name="FontMaleoRegular.Secondary" parent="FontMaleoRegular">
+        <item name="android:textColor">@color/textColorLibSecondary</item>
+        <item name="android:textColorHint">@color/colorTextLibHint</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+</resources>

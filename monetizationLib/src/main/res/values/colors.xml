@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#FF8181</color>
+    <color name="colorPrimaryPink">#FF8181</color>
+    <color name="colorPurple">#484D6D</color>
+    <color name="colorPurpleAlpha">#A7484D6D</color>
+    <color name="colorLightBlue">#2E7FA3</color>
+    <color name="redDeep">#CF0363</color>
+    <color name="colorGreenBlue">#89DCCF</color>
+    <color name="darkSkyBlue">#3FA7D6</color>
+    <color name="colorDarkRed">#BC7272</color>
+    <color name="colorGrey">#A3A3A3</color>
+    <color name="transparentWhite">#82cccccc</color>
+    <color name="transparent30PercentWhite">#4DFFFFFF</color>
+    <!-- 250 144 160 -->
+    <!-- 145 145 145 -->
+    <!-- 234 58 39 -->
+    <!-- 207 59 76 -->
+    <color name="promoPurple">#A03D8F</color> <!-- 160 61 143 -->
+    <!-- 180 60 116 -->
+    <!-- 87 26 80 -->
+    <!-- 255 180 91 -->
+    <!-- 233 70 90 -->
+    <!-- 239 97 90 -->
+    <!-- 249 249 249 -->
+    <!-- 249 249 249 -->
+    <!-- 116 116 116 -->
+    <!-- 204 39 141 -->
+    <!-- 102 20 71 -->
+    <!-- 0 82 255 -->
+    <!--  243 186 47 -->
+
+    <!-- Friend ladder colors-->
+
+    <color name="blackBackground">#1c1f24</color>
+    <!-- 245 246 250-->
+    <!-- 245 246 250-->
+    <color name="white">#FFF</color> <!-- 245 246 250-->
+    <color name="black">#000</color> <!-- 245 246 250-->
+    <color name="colorAppInstallBackgroundNotSelected">#878787</color>
+
+    <color name="colorTertiary">#FEB857</color>
+    <color name="colorTertiaryVariant">#E9992C</color>
+    <color name="colorSecondary">#C3B2FF</color>
+    <color name="colorSecondaryVariant">#301EAE</color>
+    <color name="colorRipple">#26000000</color>
+
+    <color name="blackAlpha45">#73000000</color>
+    <color name="blackAlpha25">#3F000000</color>
+    <color name="windowBackground">#1F2336</color>
+
+    <color name="primaryButtonStartColor">#FEB857</color>
+    <color name="primaryButtonEndColor">#E9992C</color>
+    <color name="primaryButtonBorderStartColor">#FFDBA9</color>
+    <color name="primaryButtonBorderEndColor">#996F35</color>
+
+    <color name="secondaryButtonStartColor">#7E2250</color>
+    <color name="secondaryButtonEndColor">#6D1C45</color>
+    <color name="secondaryButtonBorderStartColor">#A3366C</color>
+    <color name="secondaryButtonBorderEndColor">#431029</color>
+
+    <color name="mainContainerStartColor">#C64C95</color>
+    <color name="mainContainerEndColor">#6D2347</color>
+    <color name="mainContainerBorderStartColor">#DD70B0</color>
+    <color name="mainContainerBorderEndColor">#4C1631</color>
+
+    <color name="secondaryContainerStartColor">#792851</color>
+    <color name="secondaryContainerEndColor">#792851</color>
+    <color name="secondaryContainerBorderStartColor">#943261</color>
+    <color name="secondaryContainerBorderEndColor">#671B41</color>
+
+    <color name="stepIndicatorStartColor">#893060</color>
+    <color name="stepIndicatorEndColor">#72244b</color>
+    <color name="stepIndicatorBorderStartColor">#ad4c82</color>
+    <color name="stepIndicatorBorderEndColor">#5F1D3D</color>
+    <color name="defaultIndicatorStartColor">#95386B</color>
+    <color name="defaultIndicatorEndColor">#95386B</color>
+    <color name="selectedIndicatorStartColor">#AC6D16</color>
+    <color name="selectedIndicatorEndColor">#FFBD62</color>
+
+    <color name="defaultStepCircleStartColor">#FFFFFF</color>
+    <color name="defaultStepCircleEndColor">#F4F4F4</color>
+    <color name="defaultStepCircleStartBorderColor">#FAFAFA</color>
+    <color name="defaultStepCircleEndBorderColor">#D0D0D0</color>
+
+    <color name="selectedStepCircleStartColor">#FFB959</color>
+    <color name="selectedStepCircleEndColor">#C77E1A</color>
+    <color name="selectedStepCircleStartBorderColor">#FFBD62</color>
+    <color name="selectedStepCircleEndBorderColor">#AC6D16</color>
+
+
+    <color name="textColorLibPrimary">#050505</color>
+    <color name="textColorLibSecondary">#DFDFDF</color>
+    <color name="textColorLibFocus">#F7C865</color>
+    <color name="textColorLibFocusSecondary">#F57AC0</color>
+    <color name="colorTextLibHint">#66FFFFFF</color>
+</resources>

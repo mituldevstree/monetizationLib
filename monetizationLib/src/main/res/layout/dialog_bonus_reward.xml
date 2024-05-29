@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="3dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:cardCornerRadius="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_dark_gray_diagonal_radius_24dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/watchVideoImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="56dp"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_dialog_bonus_reward"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/videoWatchedReward"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="@string/congratulations"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/watchVideoImageView" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/coinsHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_white_radius_12dp"
+                android:backgroundTint="@color/blackBackground"
+                android:elevation="10dp"
+                android:paddingVertical="6dp"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/videoWatchedReward">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/bonusRewardTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="+1111"
+                    android:textColor="@color/white"
+                    android:textSize="21dp"
+                    app:layout_constraintBottom_toBottomOf="@id/coinsHolder"
+                    app:layout_constraintStart_toStartOf="@id/coinsHolder"
+                    app:layout_constraintTop_toTopOf="@id/coinsHolder" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/bonusRewardImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:src="@drawable/ic_coin_small"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bonusRewardTextView"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/watchVideoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="31dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="@string/every_video_you_watch_will_earn_you_money_enjoy_the_app_and_share_with_your_friends"
+                android:textColor="#F4F4F4"
+                android:textSize="19dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/coinsHolder" />
+
+            <Button
+                android:id="@+id/okayButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/background_gradient_money_green_with_radius_24dp"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:paddingHorizontal="40dp"
+                android:singleLine="true"
+                android:text="@string/play_ad"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="22dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/watchVideoTextView"
+                app:textFont="semibold" />
+
+            <ImageView
+                android:id="@+id/moneyImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:src="@drawable/ic_collect_money"
+                app:layout_constraintEnd_toStartOf="@id/okayButton"
+                app:layout_constraintStart_toStartOf="@id/okayButton"
+                app:layout_constraintTop_toTopOf="@id/okayButton" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
