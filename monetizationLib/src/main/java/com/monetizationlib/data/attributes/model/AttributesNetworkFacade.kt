@@ -26,7 +26,6 @@ import com.monetizationlib.data.base.model.networkLayer.networking.NetworkManage
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import retrofit2.http.Body
 import java.io.IOException
 import java.util.Calendar
 import java.util.TimeZone

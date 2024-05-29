@@ -40,7 +40,6 @@ import com.google.android.gms.common.GooglePlayServicesRepairableException
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.gson.Gson
 import com.ironsource.mediationsdk.IronSource
-import com.monetizationlib.data.BuildConfig
 import com.monetizationlib.data.ads.Ads
 import com.monetizationlib.data.ads.AppLovinAdsInitializerManager
 import com.monetizationlib.data.ads.ConsentHandler
@@ -2756,9 +2755,3 @@ enum class AdRewardType(val value: Int) {
         fun fromInt(value: Int) = AdRewardType.values().first { it.value == value }
     }
 }
-
-
-
-
-
-

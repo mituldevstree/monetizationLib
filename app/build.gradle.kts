@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.monetizationlib.data"
+    namespace = "com.example.givvymonetization"
     compileSdk = 34
 
     defaultConfig {
@@ -26,6 +26,10 @@ android {
             )
         }
     }
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -33,6 +37,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    android.buildFeatures.buildConfig = true
 }
 
 dependencies {
@@ -54,6 +59,7 @@ dependencies {
     implementation(libs.androidx.fragment.ktx)
     implementation (libs.kotlinx.coroutines.android)
     implementation (libs.gson)
+    implementation(libs.applovin.sdk)
     implementation(project(":monetizationLib"))
 
     testImplementation(libs.junit)

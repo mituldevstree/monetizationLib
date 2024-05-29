@@ -11,7 +11,6 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.monetizationlib.data.R
-import com.monetizationlib.data.base.view.customviews.GivvyButton
 
 class NeutralAlertDialog(context: Context?) : BaseDialogHelper() {
 

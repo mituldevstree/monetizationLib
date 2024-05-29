@@ -2,12 +2,10 @@ package com.monetizationlib.data.base.view.utility
 
 import android.app.AppOpsManager
 import android.app.Dialog
-import android.app.usage.UsageEvents
 import android.app.usage.UsageEvents.Event
 import android.app.usage.UsageEvents.Event.ACTIVITY_PAUSED
 import android.app.usage.UsageEvents.Event.ACTIVITY_RESUMED
 import android.app.usage.UsageEvents.Event.ACTIVITY_STOPPED
-import android.app.usage.UsageEvents.Event.STANDBY_BUCKET_CHANGED
 import android.app.usage.UsageStatsManager
 import android.content.Context
 import android.content.Intent
@@ -29,7 +27,6 @@ import com.monetizationlib.data.base.extensions.isPackageInstalled
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import java.time.LocalTime
 
 
 class AppUsageStatsManager(val context: FragmentActivity) {

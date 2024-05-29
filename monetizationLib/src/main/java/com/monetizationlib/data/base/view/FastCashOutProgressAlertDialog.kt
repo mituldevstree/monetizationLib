@@ -13,8 +13,6 @@ import com.airbnb.lottie.LottieAnimationView
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.monetizationlib.data.Monetization
 import com.monetizationlib.data.R
-import com.monetizationlib.data.base.view.customviews.GivvyButton
-import com.monetizationlib.data.base.view.customviews.GivvyTextView
 
 class FastCashOutProgressAlertDialog(context: Context?) : BaseDialogHelper() {
 

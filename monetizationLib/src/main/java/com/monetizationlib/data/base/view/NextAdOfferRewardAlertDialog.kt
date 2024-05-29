@@ -2,7 +2,6 @@ package com.monetizationlib.data.base.view
 
 import android.app.AlertDialog
 import android.content.Context
-import android.os.CountDownTimer
 import android.view.LayoutInflater
 import android.view.View
 import androidx.appcompat.widget.AppCompatButton

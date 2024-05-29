@@ -5,16 +5,13 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.monetizationlib.data.ads.model.ImpressionResponse
 import com.monetizationlib.data.attributes.model.AttributesModel
-import com.monetizationlib.data.attributes.model.DownloadFeatureActionCompleteRequest
 import com.monetizationlib.data.attributes.model.DownloadStepConfigResponse
-import com.monetizationlib.data.attributes.model.StepsResponse
 import com.monetizationlib.data.attributes.model.IpResponse
 import com.monetizationlib.data.attributes.model.MonetizationConfig
 import com.monetizationlib.data.attributes.model.RewardForNextAdResponse
 import com.monetizationlib.data.base.businessModule.BusinessModule
 import com.monetizationlib.data.base.model.networkLayer.layerSpecifics.Completable
 import com.monetizationlib.data.base.viewModel.ResultAsyncState
-import kotlinx.coroutines.flow.Flow
 
 object AttributesBussinesModule : BusinessModule<AttributesModel>() {
     override val model: AttributesModel

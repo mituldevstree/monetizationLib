@@ -93,7 +93,7 @@ dependencies {
 
     //ads
     //AppLovin
-    implementation("com.applovin:applovin-sdk:12.4.3")
+    implementation(libs.applovin.sdk)
     implementation("com.applovin.mediation:google-ad-manager-adapter:23.1.0.0")
     implementation("com.applovin.mediation:adcolony-adapter:4.8.0.4")
 //    implementation("com.google.android.gms:play-services-base:18.4.0")
@@ -112,7 +112,7 @@ dependencies {
     implementation("com.squareup.picasso:picasso:2.71828")
 
     implementation("com.applovin.mediation:tapjoy-adapter:13.2.0.0") {
-        exclude("exclude group: 'com.google.android.gms'")
+        exclude(group = "com.google.android.gms") //by group
     }
     implementation("com.applovin.mediation:facebook-adapter:6.17.0.0")
     implementation("androidx.fragment:fragment-ktx:1.7.1")
@@ -123,7 +123,7 @@ dependencies {
     implementation("com.applovin.mediation:fyber-adapter:8.2.7.1")
 
     //noinspection GradleDynamicVersion
-    implementation("com.tappx.sdk.android:tappx-sdk:4+")
+    implementation("com.tappx.sdk.android:tappx-sdk:4.1.1")
     //noinspection GradleDynamicVersion
     implementation("com.applovin.mediation:tappx-adapter:3+")
 

@@ -5,7 +5,6 @@ package com.monetizationlib.data.base.view.bottomsheet
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable.Orientation
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.GONE

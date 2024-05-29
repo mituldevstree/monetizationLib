@@ -5,7 +5,6 @@ import android.util.Log
 import androidx.annotation.Keep
 import com.google.gson.annotations.SerializedName
 import com.monetizationlib.data.base.extensions.convertToHHMMSS
-import kotlin.math.abs
 
 @Keep
 data class StepsResponse(

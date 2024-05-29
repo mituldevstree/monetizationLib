@@ -1,12 +1,9 @@
 package com.monetizationlib.data.base.view.adapter
 
-import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.view.isGone
 import androidx.recyclerview.widget.RecyclerView
-import com.monetizationlib.data.R
 import com.monetizationlib.data.attributes.model.ThemeConfig
 import com.monetizationlib.data.base.extensions.ViewUtil.applyLeftRoundedDrawableBg
 import com.monetizationlib.data.base.extensions.ViewUtil.applyRightRoundedDrawableBg

@@ -3,7 +3,6 @@ package com.monetizationlib.data.base.model.networkLayer.networking
 import android.content.Context
 import android.util.Log
 import com.monetizationlib.data.BuildConfig
-import com.monetizationlib.data.Monetization
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.Request

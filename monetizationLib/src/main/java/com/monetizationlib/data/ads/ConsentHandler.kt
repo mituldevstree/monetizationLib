@@ -14,7 +14,6 @@ import com.michaelflisar.dialogs.interfaces.IMaterialDialogEvent
 import com.michaelflisar.dialogs.presenters.DialogStyle
 import com.michaelflisar.dialogs.presenters.showAlertDialog
 import com.monetizationlib.data.Monetization
-import com.monetizationlib.data.ads.ironsource.IronSourceInitManager
 
 object ConsentHandler {
     var setup: GDPRSetup? = null

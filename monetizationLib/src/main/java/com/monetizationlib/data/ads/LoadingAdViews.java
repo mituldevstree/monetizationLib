@@ -3,8 +3,6 @@ package com.monetizationlib.data.ads;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.monetizationlib.data.ads.TimeUtil;
-
 
 public final class LoadingAdViews {
     private View view;

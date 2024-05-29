@@ -4,11 +4,9 @@ import android.app.Activity
 import android.content.Context
 import android.util.Log
 import android.view.ViewGroup
-import com.applovin.sdk.AppLovinSdk
 import com.fyber.FairBid
 import com.fyber.fairbid.ads.FairBidListener
 import com.fyber.fairbid.ads.mediation.MediatedNetwork
-import com.fyber.fairbid.internal.FairBidState
 import com.fyber.fairbid.user.UserInfo
 import com.fyber.inneractive.sdk.external.InneractiveAdManager
 import com.monetizationlib.data.Monetization

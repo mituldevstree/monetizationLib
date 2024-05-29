@@ -10,7 +10,6 @@ import com.applovin.mediation.nativeAds.MaxNativeAdLoader;
 import com.applovin.mediation.nativeAds.MaxNativeAdView;
 import com.applovin.mediation.nativeAds.MaxNativeAdViewBinder;
 import com.monetizationlib.data.Monetization;
-import com.monetizationlib.data.R;
 
 class ALM {
     private final Object MAIN_LOCK = new Object();

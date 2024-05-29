@@ -1,7 +1,6 @@
 package com.monetizationlib.data.base.model.entities
 
 import com.google.gson.annotations.SerializedName
-import com.monetizationlib.data.attributes.model.IpResponse
 import androidx.annotation.Keep
 
 @Keep

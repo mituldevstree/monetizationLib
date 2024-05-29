@@ -6,7 +6,6 @@ import android.telephony.TelephonyManager
 import com.applovin.mediation.MaxAd
 import com.applovin.mediation.MaxAdFormat
 import com.applovin.mediation.MaxAdRevenueListener
-import com.applovin.mediation.ads.MaxRewardedAd
 import com.applovin.sdk.AppLovinSdk
 import com.fyber.fairbid.ads.ImpressionData
 import com.google.firebase.analytics.FirebaseAnalytics
@@ -14,7 +13,6 @@ import com.ironsource.mediationsdk.adunit.adapter.utility.AdInfo
 import com.monetizationlib.data.FastCashOutAdFormat
 import com.monetizationlib.data.Monetization
 import com.monetizationlib.data.ads.model.GivvyAd
-import com.monetizationlib.data.ads.model.GivvyAdType
 import com.monetizationlib.data.ads.model.ImpressionDataObject
 import com.monetizationlib.data.ads.model.ImpressionResponse
 import com.monetizationlib.data.attributes.model.AttributesNetworkFacade

@@ -9,9 +9,7 @@ import androidx.annotation.ColorInt
 import androidx.annotation.ColorRes
 import androidx.core.content.ContextCompat
 import com.google.android.gms.ads.identifier.AdvertisingIdClient
-import com.monetizationlib.data.AdRewardType
 import com.monetizationlib.data.Monetization
-import com.monetizationlib.data.Monetization.activity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

@@ -7,7 +7,6 @@ import android.view.View
 import android.widget.ImageButton
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatTextView
-import com.monetizationlib.data.AdRewardType
 import com.monetizationlib.data.Monetization
 import com.monetizationlib.data.R
 

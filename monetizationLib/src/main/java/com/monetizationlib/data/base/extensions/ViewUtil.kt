@@ -36,7 +36,6 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LifecycleRegistry
 import androidx.lifecycle.findViewTreeLifecycleOwner
 import com.google.android.material.imageview.ShapeableImageView
-import com.google.android.material.internal.ViewUtils.requestApplyInsetsWhenAttached
 import com.google.android.material.shape.CornerFamily
 import com.monetizationlib.data.R
 import java.text.SimpleDateFormat

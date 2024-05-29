@@ -1,7 +1,6 @@
 package com.monetizationlib.data.ads.fairbid
 
 import android.app.Activity
-import android.util.Log
 import com.fyber.fairbid.ads.ImpressionData
 import com.fyber.fairbid.ads.Rewarded
 import com.fyber.fairbid.ads.rewarded.RewardedListener

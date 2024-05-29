@@ -12,8 +12,6 @@ import com.google.firebase.analytics.FirebaseAnalytics
 import com.monetizationlib.data.Monetization
 import com.monetizationlib.data.R
 import com.monetizationlib.data.ads.model.EligibleForRewardResponse
-import com.monetizationlib.data.base.view.customviews.GivvyButton
-import com.monetizationlib.data.base.view.customviews.GivvyTextView
 
 class BigRewardAlertDialog(context: Context?) : BaseDialogHelper() {
 
