@@ -7,7 +7,7 @@ import android.provider.Settings
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.monetizationlib.data.BuildConfig
+import com.example.givvymonetization.BuildConfig
 import com.monetizationlib.data.application.Controller
 import com.monetizationlib.data.localcache.LocalDataHelper
 import com.monetizationlib.data.network.ApiEndpoints.RESPONSE_OK

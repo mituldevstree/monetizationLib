@@ -2,9 +2,8 @@ package com.monetizationlib.data.network.model
 
 import androidx.annotation.Keep
 import androidx.databinding.BaseObservable
-import androidx.databinding.Bindable
 import com.google.gson.annotations.SerializedName
-import com.monetizationlib.data.BR
+
 @Keep
 data class User(
     @SerializedName(value = "id", alternate = ["_id", "friendId"]) var id: String? = null,
@@ -48,63 +47,4 @@ data class User(
     @Transient var dailyEarningLimitReached: Boolean = false,
     @SerializedName("currentProgressForCylicAds")
     private var _overlayPlaybackBonusDownloadProgress: Int = 0,
-) : BaseObservable(){
-
-
-    fun getCashOutPercentInFloat(): Int {
-        return cashOutPercent.toInt()
-    }
-
-    var coinBalance: Double
-        @Bindable get() = _coinBalance
-        set(value) {
-            _coinBalance = value
-            notifyPropertyChanged(BR.coinBalance)
-        }
-
-    var userBalance: Float
-        @Bindable get() = _userBalance
-        set(value) {
-            _userBalance = value
-            notifyPropertyChanged(BR.userBalance)
-        }
-    var userBalanceDouble: Float
-        @Bindable get() = _userBalanceDouble
-        set(value) {
-            _userBalanceDouble = value
-            notifyPropertyChanged(BR.userBalanceDouble)
-        }
-
-    var earnedCoins: Double
-        @Bindable get() = _coinsWon
-        set(value) {
-            _coinsWon = value
-            notifyPropertyChanged(BR.earnedCoins)
-        }
-
-
-
-    var name: String?
-        @Bindable get() = _username
-        set(value) {
-            _username = value
-            notifyPropertyChanged(BR.name)
-        }
-
-
-
-    fun getBalanceWithCurrency(): String {
-        return if (userBalance < 0.02) {
-            "$".plus("").plus(String.format("%.4f", userBalanceDouble))
-        } else {
-            "$".plus("").plus(String.format("%.2f", userBalance))
-        }
-    }
-
-
-
-    companion object {
-        const val LOGIN_GOOGLE = "google"
-        const val LOGIN_FACEBOOK = "facebook"
-    }
-}
+) : BaseObservable()

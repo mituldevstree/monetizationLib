@@ -1,6 +1,6 @@
 package com.monetizationlib.data.localcache
 
-import com.monetizationlib.data.BuildConfig
+import com.example.givvymonetization.BuildConfig
 
 
 object SharedPrefConstant {

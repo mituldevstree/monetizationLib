@@ -1,7 +1,7 @@
 package com.monetizationlib.data.network.client
 
 import android.util.Log
-import com.monetizationlib.data.BuildConfig
+import com.example.givvymonetization.BuildConfig
 import com.monetizationlib.data.localcache.LocalDataHelper
 
 import com.monetizationlib.data.network.ApiEndpoints
