@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity(), Observer {
                     Toast.LENGTH_SHORT
                 ).show()
                 val user = LocalDataHelper.getUserDetail().also {
-                    it?.userBalance = (earningInfo?.currentUserBalance ?: 0.0).toFloat()
+                    it?._userBalance = (earningInfo?.currentUserBalance ?: 0.0).toFloat()
                 }
                 LocalDataHelper.setUserDetail(user)
                 setUserInfo()
@@ -131,11 +131,11 @@ class MainActivity : AppCompatActivity(), Observer {
 
     private fun setUserInfo() {
         val stringBundle = StringBuilder()
-        stringBundle.append("UserName: ${LocalDataHelper.getUserDetail()?.name}")
+        stringBundle.append("UserName: ${LocalDataHelper.getUserDetail()?._username}")
             .append("\n")
             .append("UserID: ${LocalDataHelper.getUserDetail()?.id}")
             .append("\n")
-            .append("UserBalance: ${LocalDataHelper.getUserDetail()?.userBalance} ")
+            .append("UserBalance: ${LocalDataHelper.getUserDetail()?._userBalance} ")
         mBinding.txtUserInfo.text = stringBundle.toString()
     }
 
